@@ -1,5 +1,12 @@
 # sample run
-# 
+# Please input the year of your car: 2018
+# Please input the purchase price of you car: 32000
+# Please input the current year: 2018
+# Car's information:
+# Model year: 2018
+# Purchase price: 32000
+# Current Value: 32000
+
 class Car:
     def __init__(self):
         self.model_year = 0
