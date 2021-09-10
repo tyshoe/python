@@ -1,3 +1,5 @@
+# sample run
+# 
 class Car:
     def __init__(self):
         self.model_year = 0
@@ -17,9 +19,9 @@ class Car:
         print("Current Value:", self.current_value)
 
 
-year = int(input())
-price = int(input())
-current_year = int(input())
+year = int(input("Please input the year of your car: "))
+price = int(input("Please input the purchase price of you car: "))
+current_year = int(input("Please input the current year: "))
 
 my_car = Car()
 my_car.model_year = year
